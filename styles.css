@@ -34,3 +34,9 @@ h1 {
     transform: scale(2.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.galeria figcaption {
+            margin-top: 8px;
+            font-size: 0.9em;
+            color: #555;
+}
