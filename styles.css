@@ -20,23 +20,17 @@ h1 {
     margin: 20px;
 }
 
-.galeria img {
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.3s, box-shadow 0.3s;
+.galeria figure {
+    text-align: center;
+    margin: 0;
 }
-
-.galeria img:hover {
-    transform: scale(2.2);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.galeria img {
+    max-width: 100%;
+    height: auto;
 }
 
 .galeria figcaption {
-            margin-top: 8px;
-            font-size: 0.9em;
-            color: #555;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
 }
