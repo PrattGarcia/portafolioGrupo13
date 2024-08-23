@@ -4,211 +4,208 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio del Grupo 13</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        header h1 {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-            margin-top: 10px;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #0056b3;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2rem;
-            margin-top: 20px;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        p {
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .inicio, .galeria, .prototipos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .item {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            overflow: hidden;
-            transition: transform 0.3s;
-        }
-        .item:hover {
-            transform: translateY(-5px);
-        }
-        .item img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .descripcion {
-            padding: 15px;
-        }
-        .descripcion h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        .descripcion p {
-            font-size: 1rem;
-        }
-        footer {
-            background-color: #0056b3;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-        footer p {
-            margin: 0;
-            font-size: 1rem;
-        }
-        footer ul {
-            list-style: none;
-            padding: 0;
-            margin: 10px 0 0;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        footer li {
-            font-size: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Portafolio del Grupo 13</h1>
-        <h2>Proceso que se siguió para llegar al prototipo final</h2>
+        <h2>Proceso que se siguio para llegar al prototipo final</h2>
     </header>
-    <nav>
-        <a href="#ideas-iniciales">Ideas Iniciales</a>
-        <a href="#tres-ideas">3 Ideas Principales</a>
-        <a href="#prototipo-1">Prototipo 1</a>
-        <a href="#prototipo-2">Prototipo 2</a>
-    </nav>
-    <div class="container">
-        <section id="ideas-iniciales">
-            <h2>Ideas iniciales</h2>
-            <p>Al inicio luego de jugar el juego de carrera de caballos con todos los de la clase, nuestro enfoque principal fue hacer un juego multijugador con controles simples, lo más simples que se pudieran para mejorar la experiencia de juego en el sentido de hacerla rápida pero divertida.</p>
-            <div class="inicio">
-                <div class="item">
-                    <img src="./imagenes/im1.png" alt="Aviones y disparos">
-                    <div class="descripcion">
-                        <h3>Aviones y disparos</h3>
-                        <p>Al inicio se pensó en que no necesariamente los controles debían ser simples, por lo que pensamos en juegos con un control de movimiento.</p>
-                    </div>
-                </div>
-                <!-- Repite para cada ítem... -->
+    <h2>Ideas iniciales</h2>
+    <h2>Concepto que se siguio:</h2><p>Al inicio luego de jugar el juego de carrera de caballos con todos los de la clase, nuestro enfoque principal fue 
+    hacer un juego multijugador con controles simples, lo mas simples que se pudieran para mejorar la experiencia de juego en el sentido de hacerla 
+    rapida pero divertida.</p>
+    <div class="inicio">
+        <div class="item">
+            <img src="./imagenes/im1.png" alt="a">
+            <div class="descripcion">
+                <h3>Aviones y disparos</h3></h3>
+                <p>Al inicio se penso en que no necesariamente los controles debian ser simples, por lo que pensamos en juegos con un control de movimiento </p>
             </div>
-        </section>
-        <section id="tres-ideas">
-            <h2>Las 3 ideas que nos parecieron más interesantes</h2>
-            <p>Posterior a la lluvia de ideas, nos decidimos por las 3 que más nos parecieron llamativas, principalmente porque a estas ideas se les pueden añadir muchas cosas adicionales como boosts, habilidades especiales, algún gimmick especial para cada jugador, etc.</p>
-            <div class="galeria">
-                <div class="item">
-                    <img src="./imagenes/imagen.png" alt="Juego de saltos con obstáculos">
-                    <div class="descripcion">
-                        <h3>Juego de saltos con obstáculos</h3>
-                        <p>Este juego se basa en una carrera de 4 jugadores en donde tendrán que atravesar obstáculos saltando y ganará el último en pie...</p>
-                    </div>
-                </div>
-                <!-- Repite para cada ítem... -->
+        </div>
+        <div class="item">
+            <img src="./imagenes/im2.png" alt="a">
+            <div class="descripcion">
+                <h3>Juego de carreras</h3></h3>
+                <p>Inspirado en el juego de carreras jugado en clases, quisimos probar lo mismo pero implementando varios niveles con distintas tematicas</p>
             </div>
-        </section>
-        <section id="prototipo-1">
-            <h2>Prototipo 1</h2>
-            <p>Tratamos de usar uno de los enfoques que planteamos en la lluvia de ideas con el objetivo de llevar ese enfoque a un escenario en el que hubieran muchos más jugadores...</p>
-            <div class="prototipos">
-                <div class="item">
-                    <img src="./imagenes/prot1.jpg" alt="Battle Royale para más de 50 jugadores">
-                    <div class="descripcion">
-                        <h3>Battle Royale para más de 50 jugadores</h3>
-                        <p>Este juego es bastante simple y la idea para los controles de juego puede llegar a ser muy divertida si las físicas son implementadas correctamente...</p>
-                    </div>
-                </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im3.png" alt="a">
+            <div class="descripcion">
+                <h3>Geometry dash multijugador</h3></h3>
+                <p>Manteniendo la jugabilidad sencilla ya que solo requiere que se presione un boton o la pantalla, pensamos en un geometry dash de muchos jugadores</p>
             </div>
-        </section>
-        <section id="prototipo-2">
-            <h2>Prototipo 2</h2>
-            <p>Con la idea de bajar significativamente la exigencia del juego hacia el servidor, buscamos alternativas que pudieran cumplir con la expectativa de la cantidad grande de jugadores...</p>
-            <div class="prototipos">
-                <div class="item">
-                    <img src="./imagenes/proto21.png" alt="Destruye los misiles lo más rápido que puedas!">
-                    <div class="descripcion">
-                        <h3>Destruye los misiles lo más rápido que puedas!</h3>
-                        <p>El juego tiene una idea muy simple, en un mismo servidor varios jugadores verán un mapa en donde repentinamente aparecerán varios misiles...</p>
-                    </div>
-                </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im4.png" alt="a">
+            <div class="descripcion">
+                <h3>Atencion al cliente cooperativa</h3></h3>
+                <p>Con controles de movimiento simples se puede hacer un juego que explore un escenario simple en el que se cumplan diferentes roles</p>
             </div>
-        </section>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im5.png" alt="a">
+            <div class="descripcion">
+                <h3>Juego de saltos con obstaculos y jefe final</h3></h3>
+                <p>Es basicamente un geometry dash, se juega con un solo boton pero al final se debe eliminar un jefe en grupo</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im6.png" alt="a">
+            <div class="descripcion">
+                <h3>Tower defender</h3></h3>
+                <p>Un juego en el que cada jugador esta en una esquina, con el mouse apunta y dispara para que lo enemigos no crucen, algo complicado pero la idea
+                de usar el mouse era interesante</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im7.png" alt="a">
+            <div class="descripcion">
+                <h3>Conteo de objetos</h3></h3>
+                <p>Varios jugadores se conectan a una misma sola con el objetivo de contar animales que pasan a mucha velocidad, se juega con un boton y es 
+                relativamente simple de realizar</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im8.png" alt="a">
+            <div class="descripcion">
+                <h3>Esquivar obstaculos de la pantalla</h3></h3>
+                <p>Cada jugador mueve hacia arriba o abajo su personaje con el objetivo de que no lo choque nada, simple de implementar aunque el diseño
+                de niveles puede ser extenso</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im9.png" alt="a">
+            <div class="descripcion">
+                <h3>Escondidas</h3></h3>
+                <p>Un grupo de jugadores debera seleccionar en que lugar del mapa ocultarse y otro grupo debe seleccionar en que lugar buscar para encontrarlos,
+                los controles serian muy simples ya que seria solo seleccionar objetos en escenarios</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im10.png" alt="a">
+            <div class="descripcion">
+                <h3>Movimiento y accion colaborativa</h3></h3>
+                <p>Los jugadores se deberan mover a lo largo del mapa y resolver puzzles para dejar pasar al otro jugador algun obstaculo, algo mas complicado
+                pero interesante en conjunto con algunos jugadores</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/im11.png" alt="a">
+            <div class="descripcion">
+                <h3>El que presiona mas rapido gana</h3></h3>
+                <p>Juego simple de competencia de comida, dos equipos de varios jugadores que deberan presionar rapido sus pantallas para que su 
+                jugador coma lo mayor posible y ganar, buen juego para gran cantidad de jugadores</p>
+            </div>
+        </div>
     </div>
+
+    <h2>Las 3 ideas que nos parecieron mas interesantes</h2>
+    <h2>Concepto que se siguio:</h2><p>Posterior a la lluvia de ideas, nos decidimos por las 3 que mas nos parecieron llamativas,principalmente porque a estas ideas se les pueden añadir muchas cosas adicionales
+    como boosts, habilidades especiales, algun gimmick especial para cada jugador, etc. Sin embargo, luego de haber tenido una reunion con el profesor entendimos un concepto que habiamos pasado por alto y es que el
+    juego que fuesemos a armar debia ser para una gran cantidad de jugadores, los juegos que habiamos propuesto hasta el momento estaban pensados para ser solamente de 4 jugadores pero esa no era la idea, por lo que
+    este paso mas nos sirvio para darnos cuenta de que debiamos enfocar la idea de mantenerlo simple y divertido pero para una cantidad de jugadores mucho mayor.</p>
+    <main class="galeria">
+        <div class="item">
+            <img src="./imagenes/imagen.png" alt="Juego de saltos con obstáculos">
+            <div class="descripcion">
+                <h3>Juego de saltos con obstáculos</h3>
+                <p>Este juego se basa en una carrera de 4 jugadores en donde tendrán que atravesar obstáculos saltando y ganará el último en pie. El juego se podria jugar con un maximo de 4 jugadores 
+                en donde cada jugador debe contar con su dispositivo movil, la unica accion que realizaria el jugador seria la de tocar la pantalla para que su personaje salte y pueda evadir los obstaculos.
+                Una manera de llevar esta idea al siguiente nivel seria por medio de la incorporacion de jefes, en donde los jugadores deberan colaborar para derrotarlo mientras evaden los obstaculos que el
+                jefe tire.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/imagen2.png" alt="Laberinto cooperativo">
+            <div class="descripcion">
+                <h3>Laberinto cooperativo</h3>
+                <p>Este juego consiste en un laberinto en el que dos jugadores tendrán que colaborar para que todos puedan salir por un portal oculto en algún lugar del mapa.
+                    Cada jugador aparecerá en un lugar distinto del mapa, y tendrán varios obstáculos y zonas bloqueadas que únicamente permitirán su acceso con una llave. 
+                    De esta manera, los jugadores deberán colaborar recolectando las llaves para poder desbloquear las cerraduras y poder avanzar hasta el portal que 
+                    permite finalizar el nivel.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/imagen3.png" alt="Carrera de pájaros">
+            <div class="descripcion">
+                <h3>Carrera de pájaros</h3>
+                <p>En este juego multiplayer, hasta cuatro jugadores compiten en tiempo real controlando  pájaros que deben volar a través de una serie de obstáculos sin tocar el suelo, el techo, ni los obstáculos mismos. Con modos de juego como carrera clásica, supervivencia y contrarreloj, los jugadores podrán recoger power-ups, enfrentar obstáculos móviles y trampas, y personalizar sus personajes. Con niveles generados aleatoriamente y temáticas variadas, cada partida ofrece una experiencia única y desafiante, garantizando diversión y competencia en cada vuelo.</p>
+            </div>
+        </div>
+    </main>
+
+    <h2>Prototipo 1</h2>
+    <h2>Concepto que se siguio:</h2><p>Tratamos que usar uno de los enfoques que planteamos en la lluvia de ideas con el objetivo de llevar ese enfoque a un escenario en el que hubieran muchos
+    mas jugadores, quisimos expandir el escenario normal de uno de esto juegos pero mantenerlo lo mas simple posible, aun asi al recibir retroalimentacion nos encontramos con un bloqueante algo grande
+    que no nos permitio seguir con la idea y fue basicamente el servidor que se usaria para jugar. Se nos menciono que el servidor era muy inestable y con una conexion que dejaba mucho que desear por
+    lo que un juego que dependia de la presicion y el timing de ciertas acciones asi como una actualizacion rapida del estado de los jugadores simplemnete se iba a ver muy afectado por este bajo rendimiento
+    , es por esto que optamos por conservar la idea de disparos pero desde un enfoque completamnete diferente que se explicara mas adelante.</p>
+    <div class="prototipos">
+        <div class="item">
+            <img src="./imagenes/prot1.jpg" alt="a">
+            <div class="descripcion">
+                <h3>Battle Royale para mas de 50 jugadores</h3></h3>
+                <p>Este juego es bastante simple y la idea para los controles de juego puede llegar a ser muy divertida si las fisicas son implementadas
+                correctamente. El juego basicamente se basa en un mapa muy grande, este mapa posee una serie de obstaculos que serviran para "cubrirse de las balas"
+                , lo ultimo es importante debido a que los jugadores de este juego solo tendran que realizar dos acciones para controlar a su personaje, la accion
+                es mantener presionada la pantalla y presionar varias veces la pantalla. Mientras el jugador no presione la pantalla su personaje estara dando constantemnete
+                grios en 360 grados y solo se movera cuando el jugador presione la pantalla o el boton designado, esto hara que su personaje se mueva en la direccion que
+                su personaje estaba apuntando antes de que se presionara la pantalla y adicionalmente disparara. Esta sera la manera en la que todos los jugadores jugaran
+                , deben esperar a que su personaje este apuntando a un rival y pulsar para que dispare y asi ir eliminando a todos. Si se quiere desplazar tendra que mantener
+                pulsado el boton y asi se movera por el mapa en esa direccion.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>Prototipo 2</h2>
+    <h2>Concepto que se siguio:</h2><p>Con la idea de bajar significativamente la exigencia del juego hacia el servidor, buscamos alternativas pudieran cumplir con la espectativa de la cantidad grande de jugadores y
+    mantenga la experiencia de juego de forma mas divertida. Por eso si no podiamos usar algo que requiriera de mucha precision entonces buscariamos algo que requiriera de una sola accion simple mientras que todo lo demas
+    ocurria de manera "pregrabada" en el diseño de niveles. Gracias a esto se llego a la idea de un juego cooperativo para muchos jugadores que se basa en la destruccion de misiles que se dirigen al jugador, esto aprovecha
+    la baja calidad del servidor y permite a la vez que muchos jugadores interactuen en una misma tarea. La unica accion que realizarian los jugadores es la de presionar la pantalla de su movil como en la carrera de caballos que se
+    jugo al inicio de clases, pero esta vez con un objetivo distinto.</p>
+    <div class="prototipos">
+        <div class="item">
+            <img src="./imagenes/proto21.png" alt="a">
+            <div class="descripcion">
+                <h3>Destruye los misiles lo mas rapido que puedas!</h3></h3>
+                <p>El juego tiene una idea muy simple, en un mismo servidor varios jugadores veran un mapa en donde repentinamente apareceran varios misiles. Para ganar se requiere que cada  jugador
+                en el servidor presione encima del misil con el objetivo de no dejar que estos impacten a los jugadores.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/proto22.png" alt="a">
+            <div class="descripcion">
+                <h3>Presiona lo mas rapido que puedas!</h3></h3>
+                <p>Lo divertido y desafiante del juego es que los misiles no seran sencillos de destruir, cada misil que aparezca tendra su propia barra de vida y esta es muy extensa. Esto significa que
+                unos cuantos taps sobre este misil no haran casi nada a su barra de vida, todos los jugadores del servidor deberan aliarse para bajar la vida de todos los misiles lo mas rapido posible antes
+                de que impacten al jugador, porque si lo hacen entonces perderan. Es un trabajo colaborativo que requiere esfuerzo por parte de todos, sin embargo esto no sera todo. El juego consiste en dos etapas,
+                la aparicion de varios misiles y posteriormente cuando la barra de tiempo disminuya significativamente, la aparicion de un misil gigante con mucha mas vida y mas velocidad de lo normal. Para este misil los jugadores deberan presionar masivamente la pantalla sobre
+                el misil para lograrlo destruir, volviendo un poco mas desafiante el juego.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./imagenes/proto23.png" alt="a">
+            <div class="descripcion">
+                <h3>Victoria!</h3></h3>
+                <p>Por ultimo cuando el misil tenga mucha menos vida los jugadores estaran mas cerca de la victoria, cuando esta se acabe se dara por finalizado el juego con un gran letrero de victoria</p>
+            </div>
+        </div>
+    </div>
+    
     <footer>
         <p>Autores:</p>
         <ul>
             <li>P. García</li>
-            <li>K. Jaramillo</li>
+            <li>B. Jaramillo</li>
             <li>J. Pita</li>
         </ul>
     </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
